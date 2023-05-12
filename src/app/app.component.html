@@ -1,23 +1,14 @@
-Movie Apps
-<!-- 
-<h1> {{title | uppercase }}</h1>
-<h3>  {{today | date:'dd/MM/yyyy'}} </h3>
 
 
-<span>  
-   
-  selling price : {{sellprice}},  profit : {{sellprice | profit: 10}}
-
-  <br>  <br>
- <button  type="button"  [attr.aria-label]="attVal"> Sample Button </button>
-</span>
-<p [class] ="multipleClasses">
-    Test Class and style binding...
-</p>
-
- <input #color  placeholder ='type the color'>
- <button  (click) ="setTextColor(color.value)" > Set color </button>
- <p [style.color] = "pcolor">My Sample Text</p>
- -->
+ 
+<!-- Nav Bar-->
 
  <app-navbar> </app-navbar>
+
+ <div class="container">
+   <!-- Main Content-->
+ <app-home></app-home>
+ </div>
+
+ <!-- Footer-->
+<app-footer></app-footer>
